@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Drunken Dragon — Where Legends Are Born · Leeuwarden</title>
+<meta name="description" content="A medieval fantasy tavern in Leeuwarden. Signature cocktails, frituur, D&amp;D nights, boardgames, pub quiz and karaoke. Where legends are born.">
+<meta name="theme-color" content="#241630">
+<link rel="icon" href="assets/img/logo.png" type="image/png">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Drunken Dragon">
+<meta property="og:title" content="The Drunken Dragon — Where Legends Are Born">
+<meta property="og:description" content="A medieval fantasy tavern in the heart of the Netherlands. Cocktails, quests and cosplay in Leeuwarden.">
+<meta property="og:image" content="assets/img/hero-tree.jpg">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Grenze+Gotisch:wght@300..800&family=Spectral:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BarOrPub",
+  "name": "The Drunken Dragon",
+  "slogan": "Where Legends Are Born",
+  "description": "A medieval fantasy tavern in Leeuwarden with signature cocktails, frituur, D&D nights, boardgames and pub quizzes.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Weerd 13",
+    "addressLocality": "Leeuwarden",
+    "addressRegion": "Friesland",
+    "addressCountry": "NL"
+  },
+  "email": "drunkendragonleeuwarden@gmail.com",
+  "servesCuisine": ["Cocktails", "Pub food", "Brazilian"],
+  "priceRange": "EUR 4-30",
+  "sameAs": ["https://www.instagram.com/_the_drunken_dragon_/"],
+  "openingHoursSpecification": [
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Wednesday","Thursday"], "opens": "17:00", "closes": "01:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Friday","Saturday"], "opens": "17:00", "closes": "03:00" },
+    { "@type": "OpeningHoursSpecification", "dayOfWeek": "Sunday", "opens": "15:00", "closes": "00:00" }
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- ================= SVG SPRITE ================= -->
+<svg class="sprite" aria-hidden="true" focusable="false">
+  <symbol id="i-spark" viewBox="0 0 24 24"><path fill="currentColor" d="M12 0c1.4 6.1 4.5 9.2 10.6 10.6C16.5 12 13.4 15.1 12 21.2 10.6 15.1 7.5 12 1.4 10.6 7.5 9.2 10.6 6.1 12 0Z"/></symbol>
+  <symbol id="i-d20" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="round"><path d="M12 1.6 21.4 7v10L12 22.4 2.6 17V7Z"/><path d="M12 5.2 18.6 16.6H5.4Z"/><path d="M12 5.2 2.6 7M12 5.2 21.4 7M5.4 16.6 2.6 17M18.6 16.6 21.4 17M5.4 16.6 12 22.4M18.6 16.6 12 22.4"/></g></symbol>
+  <symbol id="i-flame" viewBox="0 0 24 24"><path fill="currentColor" d="M13.5 1c.6 3.3-.7 5-2.4 6.6C9 9.5 6.8 11.3 6.8 14.6A6.7 6.7 0 0 0 13.5 21c3.7 0 6.7-2.9 6.7-6.6 0-4.6-3.5-6.2-4.3-9.6-1 .9-1.6 2-1.7 3.4-1.4-1.9-1.6-4.4-.7-7.2Z"/></symbol>
+  <symbol id="i-mug" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round" stroke-linecap="round"><path d="M4 7h11v13a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2Z"/><path d="M15 10h3a2.5 2.5 0 0 1 0 5h-3"/><path d="M4 11h11"/></g></symbol>
+  <symbol id="i-mask" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"><path d="M3 6h18v5c0 5-4 9-9 9s-9-4-9-9Z"/><path d="M8 11c.8 1 2.2 1 3 0M13 11c.8 1 2.2 1 3 0M9 15.5c1.8 1.4 4.2 1.4 6 0"/></g></symbol>
+  <symbol id="i-scroll" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 3h12v16a2 2 0 0 1-2 2H5a2 2 0 0 0 2-2Z"/><path d="M6 3a2 2 0 0 0-2 2v2h2M9 8h6M9 12h6M9 16h4"/></g></symbol>
+  <symbol id="i-dice" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="8.5" cy="8.5" r="1.2" fill="currentColor" stroke="none"/><circle cx="15.5" cy="15.5" r="1.2" fill="currentColor" stroke="none"/><circle cx="12" cy="12" r="1.2" fill="currentColor" stroke="none"/></g></symbol>
+  <symbol id="i-mic" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><rect x="9" y="2.5" width="6" height="11" rx="3"/><path d="M5.5 11a6.5 6.5 0 0 0 13 0M12 17.5V21M9 21h6"/></g></symbol>
+  <symbol id="i-brush" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M14 3.5 20.5 10 11 19.5H4.5V13Z"/><path d="M11.5 6 18 12.5"/></g></symbol>
+  <symbol id="i-shirt" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.4" stroke-linejoin="round"><path d="M8.5 3 4 5.5 5.5 10 8 9v11h8V9l2.5 1L20 5.5 15.5 3a3.5 3.5 0 0 1-7 0Z"/></g></symbol>
+  <symbol id="i-instagram" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1.1" fill="currentColor" stroke="none"/></g></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><path d="M12 22s7-6.3 7-11.5A7 7 0 0 0 5 10.5C5 15.7 12 22 12 22Z"/><circle cx="12" cy="10.3" r="2.6"/></g></symbol>
+  <symbol id="i-clock" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5.3l3.4 2"/></g></symbol>
+  <symbol id="i-mail" viewBox="0 0 24 24"><g fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="m3.8 7 8.2 6 8.2-6"/></g></symbol>
+</svg>
+
+<!-- ================= PRELOADER ================= -->
+<div class="preloader" id="preloader">
+  <div class="preloader__inner">
+    <img class="preloader__logo" src="assets/img/logo.png" alt="" width="455" height="496">
+    <p class="preloader__text" data-i18n="loading">Lighting the hearth</p>
+    <div class="preloader__bar"><span></span></div>
+  </div>
+</div>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="scroll-progress" aria-hidden="true"><span id="scrollBar"></span></div>
+<a class="skip-link" href="#main" data-i18n="skip">Skip to content</a>
+
+<!-- ================= NAV ================= -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a class="brand" href="#top" aria-label="The Drunken Dragon">
+      <img class="brand__logo" src="assets/img/logo.png" alt="The Drunken Dragon" width="455" height="496">
+    </a>
+
+    <nav class="nav__links" aria-label="Primary">
+      <a href="#menu" data-i18n="nav.menu">Menu</a>
+      <a href="#events" data-i18n="nav.events">Events</a>
+      <a href="#shop" data-i18n="nav.shop">Shop</a>
+      <a href="#about" data-i18n="nav.about">About</a>
+      <a href="#visit" data-i18n="nav.visit">Find Us</a>
+    </nav>
+
+    <div class="nav__actions">
+      <div class="lang" role="group" aria-label="Language / Taal">
+        <button type="button" class="lang__btn is-active" data-lang="en">EN</button>
+        <button type="button" class="lang__btn" data-lang="nl">NL</button>
+      </div>
+      <a class="icon-btn" href="https://www.instagram.com/_the_drunken_dragon_/" target="_blank" rel="noopener" aria-label="Instagram">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-instagram"/></svg>
+      </a>
+      <a class="btn btn--gold btn--sm" href="#reserve" data-i18n="cta.reserve">Reserve</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mobileMenu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+<div class="mobile-menu" id="mobileMenu" hidden>
+  <nav aria-label="Mobile">
+    <a href="#menu"><i>01</i> <span data-i18n="nav.menu">Menu</span></a>
+    <a href="#events"><i>02</i> <span data-i18n="nav.events">Events</span></a>
+    <a href="#shop"><i>03</i> <span data-i18n="nav.shop">Shop</span></a>
+    <a href="#about"><i>04</i> <span data-i18n="nav.about">About</span></a>
+    <a href="#visit"><i>05</i> <span data-i18n="nav.visit">Find Us</span></a>
+  </nav>
+  <a class="btn btn--gold" href="#reserve" data-i18n="cta.reserveTable">Reserve a table</a>
+</div>
+
+<main id="main">
+
+<!-- ================= HERO ================= -->
+<section class="hero" id="top">
+  <div class="hero__photo" aria-hidden="true"></div>
+  <canvas class="hero__embers" id="embers" aria-hidden="true"></canvas>
+  <div class="hero__glow" aria-hidden="true"></div>
+
+  <div class="hero__content container">
+    <div class="hero__crest reveal" aria-hidden="true">
+      <span></span><img src="assets/img/logo.png" alt="" width="455" height="496"><span></span>
+    </div>
+
+    <h1 class="hero__title">
+      <span class="line reveal" style="--d:.06s">The Drunken</span>
+      <span class="line reveal" style="--d:.16s"><span class="foil">Dragon</span></span>
+    </h1>
+
+    <p class="hero__tagline reveal" style="--d:.24s" data-i18n="hero.tagline">Where Legends Are Born</p>
+
+    <p class="hero__sub reveal" style="--d:.32s" data-i18n="hero.sub">
+      A medieval fantasy tavern filled with magic, mystery and unforgettable cocktails.
+    </p>
+
+    <div class="hero__cta reveal" style="--d:.40s">
+      <a class="btn btn--gold btn--lg magnetic" href="#menu"><span data-i18n="cta.viewMenu">View the menu</span> <span aria-hidden="true">&rarr;</span></a>
+      <a class="btn btn--ghost btn--lg magnetic" href="#reserve" data-i18n="cta.reserveTable">Reserve a table</a>
+    </div>
+
+    <ul class="hero__stats reveal" style="--d:.48s">
+      <li><strong>2026</strong><span data-i18n="hero.stat1">Established in Leeuwarden</span></li>
+      <li><strong>19</strong><span data-i18n="hero.stat2">Cocktails on the book</span></li>
+      <li><strong>d20</strong><span data-i18n="hero.stat3">Nights of adventure</span></li>
+    </ul>
+  </div>
+
+  <a class="hero__scroll" href="#about" aria-label="Scroll"><span></span><em data-i18n="hero.enter">Enter</em></a>
+</section>
+
+<!-- ================= TICKER ================= -->
+<div class="ticker" aria-hidden="true">
+  <div class="ticker__track">
+    <span>Cocktails &amp; Potions</span><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg>
+    <span>Dungeons &amp; Dragons</span><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg>
+    <span>Boardgame Nights</span><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg>
+    <span>Fantasy Pub Quiz</span><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg>
+    <span>Karaoke</span><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg>
+    <span>Cosplay Encouraged</span><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg>
+    <span>Cocktails &amp; Potions</span><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg>
+    <span>Dungeons &amp; Dragons</span><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg>
+    <span>Boardgame Nights</span><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg>
+    <span>Fantasy Pub Quiz</span><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg>
+    <span>Karaoke</span><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg>
+    <span>Cosplay Encouraged</span><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg>
+  </div>
+</div>
+
+<!-- ================= ABOUT ================= -->
+<section class="section about" id="about">
+  <div class="container about__grid">
+    <figure class="about__photo reveal">
+      <div class="photo-frame" data-photo="founders">
+        <!-- drop the real founders.jpg into assets/img and it takes over;
+             until then the drawn facade stands in -->
+        <img src="assets/img/founders.png" alt="The Drunken Dragon, Weerd 13, Leeuwarden" loading="lazy"
+             >
+        <figcaption data-i18n="about.caption">Est. 2026 &middot; Leeuwarden</figcaption>
+      </div>
+    </figure>
+
+    <div class="about__copy">
+      <p class="eyebrow reveal"><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg> <span data-i18n="about.eyebrow">How it all began</span></p>
+      <h2 class="h2 reveal" data-i18n="about.title">A Dream Rolled<br><span class="foil">on a d20</span></h2>
+
+      <p class="lead reveal" data-i18n="about.p1">
+        The Drunken Dragon was born in 2026 from the dream of four adventurers who believed
+        the world needed a place where fantasy wasn't just a genre — it was a way of life.
+      </p>
+      <p class="reveal" data-i18n="about.p2">
+        Inspired by the taverns of Dungeons &amp; Dragons, the fellowship of The Lord of the
+        Rings, the legendary inns of World of Warcraft, and countless nights of storytelling
+        around a table, they set out to build something real.
+      </p>
+      <p class="reveal" data-i18n="about.p3">
+        A place where every community, every guild, every wandering soul could walk through
+        the door and feel truly welcome. Where the shy wizard finds their voice, the lone
+        ranger finds their party, and the bard always has a stage. No matter who you are or
+        where you come from — at The Drunken Dragon, you belong.
+      </p>
+
+      <div class="badge-est reveal">
+        <span data-i18n="about.established">Established</span>
+        <strong>2026 &middot; Leeuwarden</strong>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= MENU ================= -->
+<section class="section menu" id="menu">
+  <div class="menu__bg" aria-hidden="true"></div>
+  <div class="container">
+    <header class="section-head section-head--center">
+      <p class="eyebrow reveal"><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg> <span data-i18n="menu.eyebrow">The tavern menu</span></p>
+      <h2 class="h2 reveal" data-i18n="menu.title">Potions, Brews &amp; <span class="foil">Feasts</span></h2>
+      <p class="section-head__sub reveal" data-i18n="menu.sub">
+        Every drink is a spell. Every bite, a quest reward. Choose your poison wisely, adventurer.
+      </p>
+    </header>
+
+    <div class="tabs reveal" role="tablist" aria-label="Menu sections">
+      <button class="tab is-active" role="tab" aria-selected="true" aria-controls="panel-specials" id="tab-specials">
+        <svg viewBox="0 0 24 24"><use href="#i-flame"/></svg> <span data-i18n="menu.tab1">Cocktail Specials</span>
+      </button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="panel-familiar" id="tab-familiar">
+        <svg viewBox="0 0 24 24"><use href="#i-spark"/></svg> <span data-i18n="menu.tab2">Familiar Cocktails</span>
+      </button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="panel-food" id="tab-food">
+        <svg viewBox="0 0 24 24"><use href="#i-scroll"/></svg> <span data-i18n="menu.tab3">Frituur &amp; Kitchen</span>
+      </button>
+      <button class="tab" role="tab" aria-selected="false" aria-controls="panel-drinks" id="tab-drinks">
+        <svg viewBox="0 0 24 24"><use href="#i-mug"/></svg> <span data-i18n="menu.tab4">Beers &amp; Softs</span>
+      </button>
+    </div>
+
+    <!-- ---- COCKTAIL SPECIALS ---- -->
+    <div class="panel is-active" id="panel-specials" role="tabpanel" aria-labelledby="tab-specials">
+      <p class="panel__note reveal" data-i18n="menu.specialsNote">Our signature creations — crafted in-house and unlike anything you've tasted before.</p>
+      <div class="spellgrid">
+
+        <article class="spell reveal">
+          <header><h3>Witte Wief</h3><span class="spell__price">11.5</span></header>
+          <p class="spell__type" data-i18n="d.wittewief.type">Creamy &amp; Indulgent</p>
+          <hr>
+          <p class="spell__flavour" data-i18n="d.wittewief.desc">An innocent creamy cocktail, yet strong enough to inspire visions and/or bad decisions.</p>
+          <ul class="tags"><li class="tag tag--sig" data-i18n="tag.signature">Signature</li><li class="tag" data-i18n="tag.creamy">Creamy</li></ul>
+        </article>
+
+        <article class="spell spell--star reveal">
+          <header><h3>Mushrooms</h3><span class="spell__price">14.5</span></header>
+          <p class="spell__type" data-i18n="d.mushrooms.type">Playful &amp; Surprising</p>
+          <hr>
+          <p class="spell__flavour" data-i18n="d.mushrooms.desc">Adventurers burdened with the struggle of choosing will find that choosing is not necessary at all — two glasses, one blazing orange, one deep blue.</p>
+          <ul class="tags"><li class="tag tag--sig" data-i18n="tag.signature">Signature</li><li class="tag tag--fav" data-i18n="tag.favourite">Crowd favourite</li></ul>
+        </article>
+
+        <article class="spell reveal">
+          <header><h3>The Alchemist</h3><span class="spell__price">13.5</span></header>
+          <p class="spell__type" data-i18n="d.alchemist.type">Unpredictable</p>
+          <hr>
+          <p class="spell__flavour" data-i18n="d.alchemist.desc">Ah, so you think you can do it yourself? Alright then. Show me what you got.</p>
+          <ul class="tags"><li class="tag tag--sig" data-i18n="tag.signature">Signature</li><li class="tag" data-i18n="tag.interactive">Interactive</li></ul>
+        </article>
+
+        <article class="spell reveal">
+          <header><h3>Black Cape</h3><span class="spell__price">12.5</span></header>
+          <p class="spell__type" data-i18n="d.blackcape.type">Honeyed &amp; Intense</p>
+          <hr>
+          <p class="spell__flavour" data-i18n="d.blackcape.desc">A honeyed whiskey enchantment shrouded in shadow… and cinnamon. Served in crystal, crowned with a miniature oak barrel.</p>
+          <ul class="tags"><li class="tag tag--sig" data-i18n="tag.signature">Signature</li><li class="tag" data-i18n="tag.alcohol">Alcohol</li></ul>
+        </article>
+
+        <article class="spell reveal">
+          <header><h3>Check-Mate</h3><span class="spell__price">10.5</span></header>
+          <p class="spell__type" data-i18n="d.checkmate.type">Herbal &amp; Refreshing</p>
+          <hr>
+          <p class="spell__flavour" data-i18n="d.checkmate.desc">A refreshing traveller's tonic brewed from faraway leaves and clever strategy.</p>
+          <ul class="tags"><li class="tag tag--sig" data-i18n="tag.signature">Signature</li><li class="tag" data-i18n="tag.refreshing">Refreshing</li></ul>
+        </article>
+
+        <article class="spell reveal">
+          <header><h3>The Rose</h3><span class="spell__price">9.5</span></header>
+          <p class="spell__type" data-i18n="d.rose.type">Floral &amp; Delicate</p>
+          <hr>
+          <p class="spell__flavour" data-i18n="d.rose.desc">Like a flower blooming beneath sunlight. Light as a fairy.</p>
+          <ul class="tags"><li class="tag tag--sig" data-i18n="tag.signature">Signature</li><li class="tag" data-i18n="tag.light">Light</li></ul>
+        </article>
+
+        <article class="spell reveal">
+          <header><h3>The Elixir</h3><span class="spell__price">9.5</span></header>
+          <p class="spell__type" data-i18n="d.elixir.type">Zesty &amp; Refreshing</p>
+          <hr>
+          <p class="spell__flavour" data-i18n="d.elixir.desc">The elixir from the far realms was carried across oceans by wandering merchants and daring explorers.</p>
+          <ul class="tags"><li class="tag tag--sig" data-i18n="tag.signature">Signature</li><li class="tag" data-i18n="tag.refreshing">Refreshing</li></ul>
+        </article>
+
+        <article class="spell spell--secret reveal">
+          <header><h3 data-i18n="menu.secretTitle">Secret Cocktails</h3><span class="spell__price spell__price--none">??</span></header>
+          <p class="spell__type" data-i18n="menu.secretType">Not on any menu</p>
+          <hr>
+          <p class="spell__flavour" data-i18n="menu.secretDesc">There are cocktails we don't write down. Ask your bartender what they are — and whether you're ready for them.</p>
+        </article>
+
+      </div>
+    </div>
+
+    <!-- ---- FAMILIAR COCKTAILS ---- -->
+    <div class="panel" id="panel-familiar" role="tabpanel" aria-labelledby="tab-familiar" hidden>
+      <p class="panel__note reveal" data-i18n="menu.familiarNote">Cocktails you already know, but with a magical twist… Can you guess their original names?</p>
+      <div class="mini-grid">
+        <article class="mini reveal"><header><h3>Forbidden Fruit</h3><span>10</span></header><p data-i18n="t.tropicalVelvety">Tropical &amp; Velvety</p></article>
+        <article class="mini reveal"><header><h3>The Bad Dragon</h3><span>10.5</span></header><p data-i18n="t.fruityRefreshing">Fruity &amp; Refreshing</p></article>
+        <article class="mini reveal"><header><h3>Forest Breeze</h3><span>9.5</span></header><p data-i18n="t.mintyRefreshing">Minty &amp; Refreshing</p></article>
+        <article class="mini reveal"><header><h3>Haste</h3><span>10.5</span></header><p data-i18n="t.boldCoffee">Bold &amp; Coffee</p></article>
+        <article class="mini reveal"><header><h3>Critical Hit</h3><span>10.5</span></header><p data-i18n="t.strongCitrusy">Strong &amp; Citrusy</p></article>
+        <article class="mini reveal"><header><h3>Pirate's Paradise</h3><span>10.5</span></header><p data-i18n="t.creamyTropical">Creamy &amp; Tropical</p></article>
+        <article class="mini reveal"><header><h3>The Phoenix</h3><span>9.5</span></header><p data-i18n="t.bitterSparkling">Bitter &amp; Sparkling</p></article>
+        <article class="mini reveal"><header><h3>Elven Summerwine</h3><span>9.5</span></header><p data-i18n="t.sweetCitrusy">Sweet &amp; Citrusy</p></article>
+        <article class="mini reveal"><header><h3>Frostbolt</h3><span>10.5</span></header><p data-i18n="t.tangyVibrant">Tangy &amp; Vibrant</p></article>
+        <article class="mini reveal"><header><h3>Horizon</h3><span>11.5</span></header><p data-i18n="t.tropicalNutty">Tropical &amp; Nutty</p></article>
+        <article class="mini reveal"><header><h3>Crimson Desire</h3><span>10.5</span></header><p data-i18n="t.fruityBittersweet">Fruity &amp; Bittersweet</p></article>
+        <article class="mini reveal"><header><h3>Mermaid's Tear</h3><span>9.5</span></header><p data-i18n="t.sweetCitrusy">Sweet &amp; Citrusy</p></article>
+      </div>
+      <div class="mead-strip reveal">
+        <div>
+          <p class="eyebrow"><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg> <span data-i18n="menu.meadEyebrow">Our personal favourite</span></p>
+          <h3 data-i18n="menu.meadTitle">Mead</h3>
+        </div>
+        <ul class="price-list">
+          <li><span data-i18n="menu.mead">Mead</span><b>5.5</b></li>
+          <li><span data-i18n="menu.cherryMead">Cherry Mead</span><b>6</b></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- ---- FOOD ---- -->
+    <div class="panel" id="panel-food" role="tabpanel" aria-labelledby="tab-food" hidden>
+      <div class="ledger ledger--3">
+        <div class="ledger__col">
+          <h3 class="ledger__title" data-i18n="food.frituur">Forged in the frituur</h3>
+          <ul>
+            <li><span class="dish">Beholder Eyes</span><span class="dots"></span><span class="price">7</span>
+              <p data-i18n="f.beholder">Some good ol' bitterballen. Vegetarian option available.</p>
+              <ul class="tags"><li class="tag tag--fav" data-i18n="tag.favourite">Crowd favourite</li></ul></li>
+            <li><span class="dish">Mindflayers</span><span class="dots"></span><span class="price">6</span>
+              <p data-i18n="f.mindflayers">Mini frikandellen, a bunch of 'em.</p></li>
+            <li><span class="dish">Chicken Bites</span><span class="dots"></span><span class="price">7</span>
+              <p data-i18n="f.chicken">Chicken, but bitesize.</p></li>
+            <li><span class="dish">Tiamat's Nest</span><span class="dots"></span><span class="price">9.5</span>
+              <p data-i18n="f.tiamat">Brazilian chicken croquettes, golden fried. Tavern keeper's fav!</p>
+              <ul class="tags"><li class="tag tag--fav" data-i18n="tag.favourite">Crowd favourite</li></ul></li>
+            <li><span class="dish">Veggie Flames</span><span class="dots"></span><span class="price">8</span>
+              <p data-i18n="f.veggie">Crispy on the outside, really damn hot on the inside. For the vegan food enjoyer.</p>
+              <ul class="tags"><li class="tag tag--veg" data-i18n="tag.vegan">Vegan</li></ul></li>
+            <li><span class="dish">Stormwind Fries</span><span class="dots"></span><span class="price">4</span>
+              <p data-i18n="f.fries">Absolutely regular fries served with your preferred sauce(s). Make it loaded for +2.</p>
+              <ul class="tags"><li class="tag tag--veg" data-i18n="tag.vegan">Vegan</li><li class="tag" data-i18n="tag.classic">Classic</li></ul></li>
+            <li><span class="dish">Mozzy Sticks</span><span class="dots"></span><span class="price">8</span>
+              <p data-i18n="f.mozzy">Mozzarella sticks. Hmm. Cheese.</p>
+              <ul class="tags"><li class="tag tag--veg" data-i18n="tag.vegetarian">Vegetarian</li></ul></li>
+          </ul>
+        </div>
+
+        <div class="ledger__col">
+          <h3 class="ledger__title" data-i18n="food.kitchen">Druid's kitchen</h3>
+          <ul>
+            <li><span class="dish">Warlord's Drumsticks</span><span class="dots"></span><span class="price">9.5</span>
+              <p data-i18n="f.drumsticks">Some crispy chicken legs. Nice.</p></li>
+            <li><span class="dish">Daily Bread</span><span class="dots"></span><span class="price">7.5</span>
+              <p data-i18n="f.bread">Grilled toast with ham and melted cheese.</p></li>
+            <li><span class="dish">Nacho Cheese</span><span class="dots"></span><span class="price">8.95</span>
+              <p data-i18n="f.nacho">Nachos with veggies and a whooole lotta cheese. With bacon +3.</p>
+              <ul class="tags"><li class="tag tag--veg" data-i18n="tag.vegetarian">Vegetarian</li></ul></li>
+            <li><span class="dish">Borrel Platter</span><span class="dots"></span><span class="price">12</span>
+              <p data-i18n="f.borrel">Cheese, mozzarella, salami, some olives, served with sweet chilli sauce or mustard.</p>
+              <ul class="tags"><li class="tag" data-i18n="tag.sharing">Sharing</li></ul></li>
+            <li><span class="dish">Frisian Platter</span><span class="dots"></span><span class="price">14</span>
+              <p data-i18n="f.frisian">A classic borrelplank, but with a hint of Fryslân.</p>
+              <ul class="tags"><li class="tag" data-i18n="tag.sharing">Sharing</li><li class="tag tag--fav" data-i18n="tag.favourite">Crowd favourite</li></ul></li>
+            <li><span class="dish">Lava Cookie</span><span class="dots"></span><span class="price">3.5</span>
+              <p data-i18n="f.cookie">Warm baked cookie served in a tray, filled with Nutella.</p>
+              <ul class="tags"><li class="tag" data-i18n="tag.sweet">Sweet</li><li class="tag tag--veg" data-i18n="tag.vegetarian">Vegetarian</li></ul></li>
+          </ul>
+        </div>
+
+        <aside class="ledger__side">
+          <div class="side-card reveal">
+            <h3 data-i18n="food.boards">Sharing Boards</h3>
+            <ul class="price-list price-list--stacked">
+              <li><span><b>The Raid</b><em data-i18n="b.raid">6 bitterballen, 6 chickenbites &amp; fries.</em></span><b>13.95</b></li>
+              <li><span><b>The Fellowship</b><em data-i18n="b.fellowship">6 coxinhas, 6 frikandellen and loaded fries.</em></span><b>18</b></li>
+              <li><span><b>The Hoard</b><em data-i18n="b.hoard">6 coxinhas, 6 bitterballen, 6 mini frikandellen, 6 chicken bites and loaded fries.</em></span><b>29</b></li>
+            </ul>
+          </div>
+
+          <div class="side-card side-card--happy reveal">
+            <h3 data-i18n="food.happy">Happy Hour</h3>
+            <p class="side-card__time" data-i18n="food.happyTime">10:00 &ndash; 20:00</p>
+            <ul class="price-list">
+              <li><span data-i18n="h.fries">Beer + fries</span><b>9.5</b></li>
+              <li><span data-i18n="h.bitterballen">Beer + bitterballen</span><b>9.95</b></li>
+              <li><span data-i18n="h.loaded">Beer + loaded fries / nachos</span><b>10.95</b></li>
+              <li><span data-i18n="h.coxinhas">Beer + coxinhas</span><b>12.5</b></li>
+              <li><span data-i18n="h.pitcher">Pitcher + The Hoard board</span><b>37.5</b></li>
+            </ul>
+          </div>
+        </aside>
+      </div>
+
+      <div class="mage-note reveal">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-spark"/></svg>
+        <h3 data-i18n="food.mageTitle">A Word from the Mage</h3>
+        <p data-i18n="food.mageText">Do you have an allergy? Ask our staff for allergen information. Our menu changes with the seasons — ask your server about today's specials.</p>
+      </div>
+    </div>
+
+    <!-- ---- DRINKS ---- -->
+    <div class="panel" id="panel-drinks" role="tabpanel" aria-labelledby="tab-drinks" hidden>
+      <div class="drinks-grid">
+        <div class="side-card">
+          <h3 data-i18n="dr.beers">Beers</h3>
+          <ul class="price-list">
+            <li><span>Hertog Jan</span><b>3.25 / 5.75</b></li>
+            <li><span>Leffe Blond</span><b>4.25 / 6.95</b></li>
+            <li><span>Franziskaner Weißbier</span><b>4 / 6.75</b></li>
+            <li><span>Goose Island</span><b>5.75 / 7.25</b></li>
+          </ul>
+        </div>
+
+        <div class="side-card side-card--local">
+          <h3 data-i18n="dr.local">Beers — locally brewed!</h3>
+          <ul class="price-list">
+            <li><span>Grutte Pier Lentebier</span><b>4.75</b></li>
+            <li><span>Grutte Pier Blond</span><b>4.5</b></li>
+            <li><span>Grutte Pier BOCK</span><b>4.75</b></li>
+            <li><span>Frysk bier It Wetter</span><b>5.5</b></li>
+            <li><span>Corona</span><b>4.75</b></li>
+            <li><span>Corona Zero</span><b>4.5</b></li>
+            <li><span>Radler</span><b>4.25</b></li>
+            <li><span>Radler 0.0</span><b>4</b></li>
+            <li><span>Hertog Jan 0.0</span><b>3.95</b></li>
+          </ul>
+        </div>
+
+        <div class="side-card">
+          <h3 data-i18n="dr.sodas">Sodas</h3>
+          <ul class="price-list">
+            <li><span>Coca Cola</span><b>3.25</b></li>
+            <li><span>Coca Cola Zero</span><b>3.25</b></li>
+            <li><span>Fuze Tea</span><b>3.5</b></li>
+            <li><span>Sprite</span><b>3.25</b></li>
+            <li><span>Fanta</span><b>3.25</b></li>
+            <li><span>Cassis</span><b>3.25</b></li>
+            <li><span>Rivella</span><b>3.25</b></li>
+            <li><span>Royal Bliss Tonic</span><b>3.5</b></li>
+            <li><span>Royal Bliss Ginger Ale</span><b>3.5</b></li>
+            <li><span>Royal Bliss Bitter Lemon</span><b>3.5</b></li>
+            <li><span>Royal Bliss Ginger Beer</span><b>3.5</b></li>
+            <li><span>Guaraná Antarctica</span><b>4.5</b></li>
+          </ul>
+        </div>
+
+        <div class="side-card">
+          <h3 data-i18n="dr.wines">Wines</h3>
+          <ul class="price-list">
+            <li><span data-i18n="w.dryWhite">Dry white wine</span><b>4.75</b></li>
+            <li><span data-i18n="w.sweetWhite">Sweet white wine</span><b>4.75</b></li>
+            <li><span data-i18n="w.red">Red wine</span><b>4.75</b></li>
+            <li><span data-i18n="w.rose">Rosé wine</span><b>4.75</b></li>
+          </ul>
+          <h3 class="side-card__second" data-i18n="dr.mead">Mead</h3>
+          <ul class="price-list">
+            <li><span data-i18n="menu.mead">Mead</span><b>5.5</b></li>
+            <li><span data-i18n="menu.cherryMead">Cherry Mead</span><b>6</b></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= DICE ORACLE ================= -->
+<section class="section oracle">
+  <div class="container oracle__inner">
+    <div class="oracle__copy">
+      <p class="eyebrow reveal"><svg viewBox="0 0 24 24"><use href="#i-d20"/></svg> <span data-i18n="oracle.eyebrow">Let fate decide</span></p>
+      <h2 class="h2 reveal" data-i18n="oracle.title">Can't choose?<br><span class="foil">Roll for it.</span></h2>
+      <p class="reveal" data-i18n="oracle.sub">Twenty faces, twenty answers, all from the real menu. The bar honours the result. Usually.</p>
+      <button class="btn btn--gold btn--lg magnetic" id="rollBtn" data-i18n="oracle.roll">Roll the d20</button>
+    </div>
+
+    <div class="oracle__die">
+      <svg class="die" id="die" viewBox="0 0 24 24" aria-hidden="true"><use href="#i-d20"/></svg>
+      <output class="oracle__result" id="rollResult" aria-live="polite">
+        <span class="oracle__num">?</span>
+        <span class="oracle__text" data-i18n="oracle.waiting">The dice are waiting.</span>
+      </output>
+    </div>
+  </div>
+</section>
+
+<!-- ================= EVENTS ================= -->
+<section class="section events" id="events">
+  <div class="container">
+    <header class="section-head section-head--center">
+      <p class="eyebrow reveal"><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg> <span data-i18n="events.eyebrow">Adventures</span></p>
+      <h2 class="h2 reveal" data-i18n="events.title">Weekly <span class="foil">Quests</span></h2>
+      <p class="section-head__sub reveal" data-i18n="events.sub">A new adventure every week. Sign up and become part of the legend.</p>
+    </header>
+
+    <div class="quest-grid">
+      <article class="quest reveal">
+        <div class="quest__icon"><svg viewBox="0 0 24 24"><use href="#i-dice"/></svg></div>
+        <p class="quest__tag" data-i18n="events.everyWeek">Every Wednesday</p>
+        <h3 data-i18n="events.boardgame">Boardgame Night</h3>
+        <p data-i18n="events.boardgameDesc">The shelf is yours. Board games, card games and the kind of argument that only happens over a rules dispute. Walk in, no booking needed.</p>
+      </article>
+
+      <article class="quest reveal">
+        <div class="quest__icon"><svg viewBox="0 0 24 24"><use href="#i-brush"/></svg></div>
+        <p class="quest__tag" data-i18n="events.biweeklyThu">Thursday &middot; every two weeks</p>
+        <h3 data-i18n="events.drinkdraw">Drink &amp; Draw</h3>
+        <p data-i18n="events.drinkdrawDesc">Bring a sketchbook, order a potion, draw whatever the night gives you. No skill level required — only enthusiasm.</p>
+      </article>
+
+      <article class="quest reveal">
+        <div class="quest__icon"><svg viewBox="0 0 24 24"><use href="#i-d20"/></svg></div>
+        <p class="quest__tag" data-i18n="events.biweeklySun">Sunday &middot; every two weeks</p>
+        <h3 data-i18n="events.dnd">D&amp;D Event</h3>
+        <p data-i18n="events.dndDesc">A table, a DM, and a story that ends tonight. Characters provided, no experience needed. Sessions fill up fast — sign up on Instagram.</p>
+      </article>
+
+      <article class="quest reveal">
+        <div class="quest__icon"><svg viewBox="0 0 24 24"><use href="#i-mic"/></svg></div>
+        <p class="quest__tag" data-i18n="events.monthly">Monthly &amp; special</p>
+        <h3 data-i18n="events.specials">Quiz, Karaoke &amp; More</h3>
+        <p data-i18n="events.specialsDesc">Fantasy pub quiz, karaoke nights, mead tastings and community meet-ups. Watch the calendar below.</p>
+      </article>
+    </div>
+
+    <!-- ---- month calendar ---- -->
+    <div class="calendar reveal" id="calendar">
+      <header class="calendar__head">
+        <div>
+          <p class="eyebrow"><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg> <span data-i18n="events.thisMonth">What's on</span></p>
+          <h3 data-i18n="events.month">September 2026</h3>
+        </div>
+        <p class="calendar__legend" data-i18n="events.closedNote">Closed Monday &amp; Tuesday</p>
+      </header>
+
+      <ol class="calendar__list">
+        <li><span class="cal__date">Wed 2, 9, 16, 23, 30</span><span class="cal__event" data-i18n="events.boardgame">Boardgame Night</span></li>
+        <li><span class="cal__date">Thu 3, 17</span><span class="cal__event" data-i18n="events.drinkdraw">Drink &amp; Draw</span></li>
+        <li><span class="cal__date">Sun 6, 20</span><span class="cal__event" data-i18n="events.dnd">D&amp;D Event</span></li>
+        <li class="is-special"><span class="cal__date">Thu 10</span><span class="cal__event" data-i18n="events.pubquiz">Drunken Dragon Fantasy Pub Quiz</span></li>
+        <li class="is-special"><span class="cal__date">Fri 18</span><span class="cal__event" data-i18n="events.karaokeOliver">Karaoke w/ Oliver</span></li>
+        <li class="is-special"><span class="cal__date">Thu 24</span><span class="cal__event" data-i18n="events.mead">Mead Tasting</span></li>
+        <li class="is-special"><span class="cal__date">Fri 25</span><span class="cal__event" data-i18n="events.quizEllen">Quiz Time w/ Ellen van Ellende</span></li>
+        <li class="is-special"><span class="cal__date">Sat 26</span><span class="cal__event" data-i18n="events.bonusKaraoke">Bonus Karaoke</span></li>
+        <li class="is-special"><span class="cal__date">Sun 27</span><span class="cal__event" data-i18n="events.furry">Furry Fusion Munch</span></li>
+      </ol>
+
+      <div class="calendar__cta">
+        <p data-i18n="events.ctaText">Dates, tickets and last-minute chaos go up on Instagram first.</p>
+        <a class="btn btn--gold magnetic" href="https://www.instagram.com/_the_drunken_dragon_/" target="_blank" rel="noopener">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-instagram"/></svg>
+          <span data-i18n="events.ctaBtn">Follow the quest board</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= FOUNDERS ================= -->
+<section class="section keepers">
+  <div class="container">
+    <header class="section-head section-head--center">
+      <p class="eyebrow reveal"><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg> <span data-i18n="party.eyebrow">The party</span></p>
+      <h2 class="h2 reveal" data-i18n="party.title">Meet the <span class="foil">Founders</span></h2>
+      <p class="section-head__sub reveal" data-i18n="party.sub">Four friends. One dream. An eternal quest to make every night legendary.</p>
+    </header>
+
+    <div class="keeper-grid">
+      <article class="keeper reveal">
+        <div class="keeper__portrait keeper__portrait--kevin"><img src="assets/img/kevin.jpg" alt="Kevin, the Mage" loading="lazy"></div>
+        <h3>Kevin</h3>
+        <p class="keeper__class" data-i18n="party.kevinClass">The Mage</p>
+        <p data-i18n="party.kevinBio">Every great tavern needs a master of the arcane arts — and Kevin is ours. Behind every contract, every deal and every partnership stands his steady hand. He turns the complex into the effortless, keeping the magic alive not just in the glasses, but in everything that makes The Drunken Dragon run.</p>
+      </article>
+      <article class="keeper reveal">
+        <div class="keeper__portrait keeper__portrait--hester"><img src="assets/img/hester.jpg" alt="Hester, the Bard" loading="lazy"></div>
+        <h3>Hester</h3>
+        <p class="keeper__class" data-i18n="party.hesterClass">The Bard</p>
+        <p data-i18n="party.hesterBio">Hester doesn't just organise events — she crafts experiences. From themed nights to epic celebrations, she has a gift for turning an ordinary evening into a memory you'll be telling stories about for years. If there's a legendary night ahead, Hester planned it.</p>
+      </article>
+      <article class="keeper reveal">
+        <div class="keeper__portrait keeper__portrait--luanna"><img src="assets/img/luanna.png" alt="Luanna, the Druid" loading="lazy"></div>
+        <h3>Luanna</h3>
+        <p class="keeper__class" data-i18n="party.luannaClass">The Druid</p>
+        <p data-i18n="party.luannaBio">Guardian of the tavern's spirit and community. Luanna tends to every soul that walks through the door — and makes sure no one leaves hungry. Every snack is handcrafted by her, made with care to keep every belly full and every heart warm.</p>
+      </article>
+      <article class="keeper reveal">
+        <div class="keeper__portrait keeper__portrait--mark"><img src="assets/img/mark.jpg" alt="Mark, the Ranger" loading="lazy"></div>
+        <h3>Mark</h3>
+        <p class="keeper__class" data-i18n="party.markClass">The Ranger</p>
+        <p data-i18n="party.markBio">Ever watchful, always prepared. Mark keeps the entire tavern running at full power — every torch lit, every barrel full, every door open. He makes absolutely sure nothing is ever missing and everything is firing on all cylinders before the first guest walks in.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CREED ================= -->
+<section class="section creed" id="creed">
+  <div class="container">
+    <header class="section-head section-head--center">
+      <p class="eyebrow reveal"><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg> <span data-i18n="creed.eyebrow">Our creed</span></p>
+      <h2 class="h2 reveal" data-i18n="creed.title">What We <span class="foil">Stand For</span></h2>
+    </header>
+
+    <div class="creed-grid">
+      <article class="creed-card reveal">
+        <div class="prism" aria-hidden="true"></div>
+        <h3 data-i18n="creed.c1">Radical Inclusion</h3>
+        <p data-i18n="creed.c1d">Every class, every race, every background is welcome here. The Drunken Dragon is a safe haven for all adventurers.</p>
+      </article>
+      <article class="creed-card reveal">
+        <h3 data-i18n="creed.c2">Community First</h3>
+        <p data-i18n="creed.c2d">We are more than a bar. We are a gathering place — a home base for your party, your guild, your people.</p>
+      </article>
+      <article class="creed-card reveal">
+        <h3 data-i18n="creed.c3">Magic in Everything</h3>
+        <p data-i18n="creed.c3d">From our cocktails to our décor, we pour imagination into every detail. The fantasy never stops at the door.</p>
+      </article>
+      <article class="creed-card reveal">
+        <h3 data-i18n="creed.c4">Stories Worth Telling</h3>
+        <p data-i18n="creed.c4d">We believe every night out should become a story. Come in as strangers, leave as legends.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SHOP ================= -->
+<section class="section shop" id="shop">
+  <div class="container">
+    <header class="section-head section-head--center">
+      <p class="eyebrow reveal"><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg> <span data-i18n="shop.eyebrow">The treasury</span></p>
+      <h2 class="h2 reveal" data-i18n="shop.title">Dragon <span class="foil">Merchandise</span></h2>
+      <p class="section-head__sub reveal" data-i18n="shop.sub">Wear the mark of the dragon. Exclusive merchandise for true legends.</p>
+    </header>
+
+    <div class="shop-grid">
+      <article class="product reveal">
+        <div class="product__icon"><svg viewBox="0 0 24 24"><use href="#i-shirt"/></svg></div>
+        <h3 data-i18n="shop.p1">Dragon Crest T-Shirt</h3>
+        <p data-i18n="shop.p1d">Premium cotton with the gold dragon logo.</p>
+        <span class="product__price">29.95</span>
+      </article>
+      <article class="product reveal">
+        <div class="product__icon"><svg viewBox="0 0 24 24"><use href="#i-mug"/></svg></div>
+        <h3 data-i18n="shop.p2">Tavern Drinking Mug</h3>
+        <p data-i18n="shop.p2d">Handcrafted metal mug with dragon relief.</p>
+        <span class="product__price">24.95</span>
+      </article>
+      <article class="product reveal">
+        <div class="product__icon"><svg viewBox="0 0 24 24"><use href="#i-flame"/></svg></div>
+        <h3 data-i18n="shop.p3">Dragon's Reserve Pack</h3>
+        <p data-i18n="shop.p3d">Exclusive tasting pack with 3 house cocktails.</p>
+        <span class="product__price">39.95</span>
+      </article>
+    </div>
+    <p class="shop__note reveal" data-i18n="shop.note">Available at the bar. Ask a tavern keeper.</p>
+  </div>
+</section>
+
+<!-- ================= PRIVATE EVENTS ================= -->
+<section class="section private" id="private">
+  <div class="container">
+    <div class="private__inner">
+      <div class="private__copy">
+        <p class="eyebrow reveal"><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg> <span data-i18n="private.eyebrow">Private events</span></p>
+        <h2 class="h2 reveal" data-i18n="private.title">Reserve the <span class="foil">Entire Tavern</span></h2>
+        <p class="lead reveal" data-i18n="private.text">
+          Celebrate your birthday, bachelor party or company night in the most epic
+          setting in Fryslân. You bring the party — we take care of the magic.
+        </p>
+        <ul class="perks reveal">
+          <li data-i18n="private.p1">Exclusive use of the tavern</li>
+          <li data-i18n="private.p2">Custom menu &amp; cocktails</li>
+          <li data-i18n="private.p3">A dedicated Dungeon Master</li>
+          <li data-i18n="private.p4">Live entertainment on request</li>
+        </ul>
+        <a class="btn btn--gold btn--lg magnetic reveal" href="#reserve">
+          <span data-i18n="private.cta">Request a quote</span> <span aria-hidden="true">&rarr;</span>
+        </a>
+      </div>
+
+      <div class="private__sigil reveal" aria-hidden="true">
+        <img src="assets/img/logo.png" alt="" width="455" height="496">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= VISIT + RESERVE ================= -->
+<section class="section visit" id="visit">
+  <div class="container">
+    <header class="section-head section-head--center">
+      <p class="eyebrow reveal"><svg viewBox="0 0 24 24"><use href="#i-spark"/></svg> <span data-i18n="visit.eyebrow">Find us</span></p>
+      <h2 class="h2 reveal" data-i18n="visit.title">Come and <span class="foil">knock</span></h2>
+    </header>
+
+    <div class="visit__grid">
+      <div class="visit__info">
+        <div class="info-block reveal">
+          <h3><svg viewBox="0 0 24 24"><use href="#i-pin"/></svg> <span data-i18n="visit.where">Where</span></h3>
+          <p><strong>Weerd 13</strong><br>Leeuwarden, Friesland<br><span data-i18n="visit.country">The Netherlands</span></p>
+          <a class="link-gold" href="https://www.google.com/maps/search/?api=1&query=Weerd+13+Leeuwarden" target="_blank" rel="noopener" data-i18n="visit.maps">Open in Maps</a>
+        </div>
+
+        <div class="info-block reveal">
+          <h3><svg viewBox="0 0 24 24"><use href="#i-clock"/></svg> <span data-i18n="visit.hours">Opening hours</span></h3>
+          <!-- TODO: confirmar — o rodapé do site anterior dizia Mon-Thu, mas o calendário marca Mon/Tue fechado -->
+          <table class="hours">
+            <tbody>
+              <tr><th scope="row" data-i18n="day.mon">Monday</th><td data-i18n="visit.closed">Closed</td></tr>
+              <tr><th scope="row" data-i18n="day.tue">Tuesday</th><td data-i18n="visit.closed">Closed</td></tr>
+              <tr><th scope="row" data-i18n="day.wed">Wednesday</th><td>17:00 &ndash; 01:00</td></tr>
+              <tr><th scope="row" data-i18n="day.thu">Thursday</th><td>17:00 &ndash; 01:00</td></tr>
+              <tr><th scope="row" data-i18n="day.fri">Friday</th><td>17:00 &ndash; 03:00</td></tr>
+              <tr><th scope="row" data-i18n="day.sat">Saturday</th><td>17:00 &ndash; 03:00</td></tr>
+              <tr><th scope="row" data-i18n="day.sun">Sunday</th><td>15:00 &ndash; 00:00</td></tr>
+            </tbody>
+          </table>
+          <p class="muted" data-i18n="visit.hoursNote">Event nights can run longer. Check Instagram for the week ahead.</p>
+        </div>
+
+        <div class="info-block reveal">
+          <h3><svg viewBox="0 0 24 24"><use href="#i-mail"/></svg> <span data-i18n="visit.reach">Reach us</span></h3>
+          <p class="contact-lines">
+            <a class="link-gold" href="https://www.instagram.com/_the_drunken_dragon_/" target="_blank" rel="noopener">@_the_drunken_dragon_</a>
+            <a class="link-gold" href="mailto:drunkendragonleeuwarden@gmail.com">drunkendragonleeuwarden@gmail.com</a>
+          </p>
+          <p class="muted" data-i18n="visit.reachNote">Big group, private hire or a birthday campaign? Write to us.</p>
+        </div>
+      </div>
+
+      <!-- ---- BOOKING ---- -->
+      <div class="booking reveal" id="reserve">
+        <div class="card-frame">
+          <h3 class="booking__title" data-i18n="form.title">Reserve a table</h3>
+          <p class="booking__sub" data-i18n="form.sub">Send a raven. We answer within a day.</p>
+
+          <form class="form" id="bookingForm" novalidate>
+            <div class="field">
+              <label for="f-name" data-i18n="form.name">Name</label>
+              <input id="f-name" name="name" type="text" required data-i18n-ph="form.namePh" placeholder="Your name, or your character's">
+            </div>
+            <div class="field">
+              <label for="f-email" data-i18n="form.email">Email</label>
+              <input id="f-email" name="email" type="email" required placeholder="you@example.com">
+            </div>
+            <div class="row">
+              <div class="field">
+                <label for="f-date" data-i18n="form.date">Date</label>
+                <input id="f-date" name="date" type="date" required>
+              </div>
+              <div class="field">
+                <label for="f-time" data-i18n="form.time">Time</label>
+                <input id="f-time" name="time" type="time" required value="19:00">
+              </div>
+            </div>
+            <div class="row">
+              <div class="field">
+                <label for="f-party" data-i18n="form.party">Party size</label>
+                <select id="f-party" name="party">
+                  <option>2</option><option>3</option><option>4</option>
+                  <option>5</option><option>6</option><option>7+</option>
+                </select>
+              </div>
+              <div class="field">
+                <label for="f-occasion" data-i18n="form.occasion">Occasion</label>
+                <select id="f-occasion" name="occasion">
+                  <option data-i18n="form.occ1">Just drinks</option>
+                  <option data-i18n="form.occ2">Boardgame night</option>
+                  <option data-i18n="form.occ3">D&amp;D event</option>
+                  <option data-i18n="form.occ4">Pub quiz / karaoke</option>
+                  <option data-i18n="form.occ5">Birthday / private hire</option>
+                </select>
+              </div>
+            </div>
+            <div class="field">
+              <label for="f-notes" data-i18n="form.notes">Anything we should know?</label>
+              <textarea id="f-notes" name="notes" rows="3" data-i18n-ph="form.notesPh" placeholder="Allergies, accessibility, a truly excellent backstory"></textarea>
+            </div>
+
+            <p class="form__policy">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-clock"/></svg>
+              <span data-i18n="form.policy">We hold your table for <b>20 minutes</b>. Running late? Send us a message and we'll keep it warm.</span>
+            </p>
+
+            <button class="btn btn--gold btn--block" type="submit" data-i18n="form.submit">Send the raven</button>
+            <p class="form__status" id="formStatus" role="status"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer__cols">
+      <div class="footer__brand">
+        <a class="brand brand--lg" href="#top">
+          <img class="brand__logo" src="assets/img/logo.png" alt="The Drunken Dragon" width="455" height="496">
+        </a>
+        <p data-i18n="footer.tag">Where legends are born. A medieval fantasy tavern in the heart of the Netherlands.</p>
+        <a class="icon-btn" href="https://www.instagram.com/_the_drunken_dragon_/" target="_blank" rel="noopener" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><use href="#i-instagram"/></svg>
+        </a>
+      </div>
+
+      <nav aria-label="Footer">
+        <h4 data-i18n="footer.explore">Explore</h4>
+        <a href="#menu" data-i18n="footer.menuDrinks">Menu &amp; Drinks</a>
+        <a href="#events" data-i18n="nav.events">Events</a>
+        <a href="#shop" data-i18n="footer.merch">Merchandise</a>
+        <a href="#about" data-i18n="footer.aboutUs">About Us</a>
+      </nav>
+
+      <div>
+        <h4 data-i18n="visit.hours">Opening hours</h4>
+        <p class="footer__hours">
+          <span data-i18n="footer.h1">Wed &ndash; Thu: 5pm &ndash; 1am</span><br>
+          <span data-i18n="footer.h2">Fri &ndash; Sat: 5pm &ndash; 3am</span><br>
+          <span data-i18n="footer.h3">Sun: 3pm &ndash; midnight</span><br>
+          <span data-i18n="footer.h4">Mon &ndash; Tue: closed</span>
+        </p>
+      </div>
+
+      <div>
+        <h4 data-i18n="visit.eyebrow">Find us</h4>
+        <p>Weerd 13<br>Leeuwarden<br><span data-i18n="visit.country">The Netherlands</span></p>
+        <a class="footer__mail" href="mailto:drunkendragonleeuwarden@gmail.com">drunkendragonleeuwarden@gmail.com</a>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>&copy; <span id="year">2026</span> The Drunken Dragon. <span data-i18n="footer.rights">All rights reserved.</span></p>
+      <p data-i18n="footer.drink">Drink responsibly. Roll honestly.</p>
+    </div>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop" aria-label="Back to top">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M5 12l7-7 7 7" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+</button>
+
+<script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
+<script src="assets/js/chatbot.js"></script>
+</body>
+</html>
