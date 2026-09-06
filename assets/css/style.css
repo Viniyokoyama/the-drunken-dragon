@@ -1391,6 +1391,7 @@ html:not(.js-ready) .reveal{ opacity:1; transform:none; }
 .tk.is-open .tk__launch{ opacity:0; pointer-events:none; transform:scale(.85); }
 
 /* ---------- panel ---------- */
+.tk__panel[hidden]{ display:none; }
 .tk__panel{
   position:absolute; right:0; bottom:0;
   width:min(390px, calc(100vw - 32px));
